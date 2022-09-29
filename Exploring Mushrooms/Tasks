@@ -39,9 +39,8 @@ plt.show()
 plt.clf()
 
 The .show() Matplotlib method should look familiar from previous lesson, but .clf() might be unfamiliar. This method is also from the Matplotlib library. It clears any previous figure formatting. This will keep any graphs you are plotting from bunching up on each other. Instead, your plots will be neatly stacked on top of each other will spacing ideal for viewing.
-5.
 
-After using plt.show() and plt.clf(), 23 plots should appear in the web browser on the right. We recommend that you click this button in the top right of the web browser to expand it for best viewing:
+5. After using plt.show() and plt.clf(), 23 plots should appear in the web browser on the right. We recommend that you click this button in the top right of the web browser to expand it for best viewing:
 
 Fullscreen icon that sits in the top right of the learning environnment
 
@@ -57,9 +56,8 @@ When you want to go back to your original view of the code editor and tasks, cli
 
 Feel free to do this throughout the project if you want to take a closer look at your graphs and want to continue your analysis! In the next few steps, you will clean up the graphs and make them more readable and useful for finding patterns.
 Cleaning the Bar Graphs
-6.
 
-As you scroll through the graphs, you may notice some imperfections. For example, some of the x-axis labels overlap each other. The font size for the labels along the x-axis is also pretty small, making them tough to read.
+6. As you scroll through the graphs, you may notice some imperfections. For example, some of the x-axis labels overlap each other. The font size for the labels along the x-axis is also pretty small, making them tough to read.
 
 Let’s fix these up with two lines of code.
 
@@ -71,25 +69,23 @@ plt.xticks(rotation=30, fontsize=10)
 plt.xlabel(column, fontsize=12)
 
 Click the hint to check the code in your for loop up to this point.
-7.
 
-One more thing you can do to increase readability is to add an informative title. Using .title() from the Matplotlib library, give your graph the following title:
+7. One more thing you can do to increase readability is to add an informative title. Using .title() from the Matplotlib library, give your graph the following title:
 
 {Variable Name} Value Counts
 
 Use column to capture each variable name. Be sure to call this method after .countplot() inside of your for loop.
-Ordering the Bars for Analysis
-8.
 
-The graphs are readable, but you can take it another step further.
+Ordering the Bars for Analysis
+
+8. The graphs are readable, but you can take it another step further.
 
     Add the order parameter to your .countplot() method.
     Set this parameter so that the value counts in each column are in descending order.
 
 You will need to use the .value_counts() pandas method and the .index pandas object.
-9.
 
-Great job! In relatively few lines of code, you have created 23 informative plots. Now that they are titled, labeled clearly, and ordered, you can really dive in on your analysis.
+9. Great job! In relatively few lines of code, you have created 23 informative plots. Now that they are titled, labeled clearly, and ordered, you can really dive in on your analysis.
 
 Think about how someone could best use these visualizations. It is easy to tell which features of mushrooms are common and rare, and we get insights into the variety of mushrooms in the fungi kingdom.
 
@@ -102,9 +98,8 @@ Spend some time looking over the graphs. Write down exciting insights you find. 
 
 Some of your analysis may also require research into mushroom features for any of the x-labels. We hope you enjoy continuing to explore the world of these fun guys!
 Extensions
-10.
 
-Feel free to play around with the graphs and customize them any way you want to help in your analysis! Here are some ideas to get yourself started:
+10. Feel free to play around with the graphs and customize them any way you want to help in your analysis! Here are some ideas to get yourself started:
 
     Turn any bar graph with less than six bars into a pie chart (hint: use a conditional statement!).
     Create your bar charts using a list comprehension instead of a for loop.
