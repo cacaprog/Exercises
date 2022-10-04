@@ -41,21 +41,26 @@ Now visualize the coach ticket prices for flights that are 8 hours long. What ar
 
 3. How are flight delay times distributed? Let’s say there is a short amount of time between two connecting flights, and a flight delay would put the client at risk of missing their connecting flight. You want to better understand how often there are large delays so you can correctly set up connecting flights. What kinds of delays are typical?
 
+Os delays são curtos, não devem interferir muito nos voos.
+
 
 Bivariate Analysis
-4.
+4. Create a visualization that shows the relationship between coach and first-class prices. What is the relationship between these two prices? Do flights with higher coach prices always have higher first-class prices as well?
 
-Create a visualization that shows the relationship between coach and first-class prices. What is the relationship between these two prices? Do flights with higher coach prices always have higher first-class prices as well?
-5.
+Sim, existe uma forte relação entre as partes.
+Quanto maior o coach_price, maior o firstclass_price
 
-What is the relationship between coach prices and inflight features— inflight meal, inflight entertainment, and inflight WiFi? Which features are associated with the highest increase in price?
-6.
+5. What is the relationship between coach prices and inflight features— inflight meal, inflight entertainment, and inflight WiFi? Which features are associated with the highest increase in price?
 
-How does the number of passengers change in relation to the length of flights?
+Em relação às features, observamos uma ligeira alteração nos preços.
+Diferente do entretenimento e wifi. Voos com estes serviços tem um valor superior aos voos que não oferecem isso.
+
+6. How does the number of passengers change in relation to the length of flights?
+Não parece mudar
+
+
 Multivariate Analysis
-7.
-
-Visualize the relationship between coach and first-class prices on weekends compared to weekdays.
+7. Visualize the relationship between coach and first-class prices on weekends compared to weekdays.
 8.
 
 How do coach prices differ for redeyes and non-redeyes on each day of the week?
