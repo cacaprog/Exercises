@@ -31,9 +31,27 @@ Prerequisites:
 - Life expectancy
 
 3. Analysis
+ #   Column                            Non-Null Count  Dtype  
+---  ------                            --------------  -----  
+ 0   Country                           96 non-null     object 
+ 1   Year                              96 non-null     int64  
+ 2   Life expectancy at birth (years)  96 non-null     float64
+ 3   GDP                               96 non-null     float64
+dtypes: float64(2), int64(1), object(1)
 
+- renomear o nome de uma das colunas (Expectancy)
+- o GDP está com número muito grande, vamos reduzí-lo
+- o ano está com casas decimais, talvez seja melhor arredondá-los?
+- tem uma série anual, na coluna Year, desde o ano 2000 para cada país (Country)
 
 4. Evaluation
+- Qual o GDP de cada país (média)
+- Qual é a Life Expectancy de cada país (média)
+- Estes países pertencem a qual macroregião?
+- Qual o ano de melhor espectativa de vida para o mundo (todos os países)
+- E qual o pior ano?
+- Países com maior GPD tem maior expectativa de vida?
+- Existe alguma lei de pareto 80 / 20?
 
 
 5. Output
