@@ -39,8 +39,8 @@ Prerequisites:
  3   GDP                               96 non-null     float64
 dtypes: float64(2), int64(1), object(1)
 
-- renomear o nome de uma das colunas (Expectancy)
-- o GDP está com número muito grande, vamos reduzí-lo
+- renomear o nome de uma das colunas (Expectancy) - ok
+- o GDP está com número muito grande, vamos reduzí-lo - 
 - o ano está com casas decimais, talvez seja melhor arredondá-los?
 - tem uma série anual, na coluna Year, desde o ano 2000 para cada país (Country)
 
@@ -50,10 +50,14 @@ dtypes: float64(2), int64(1), object(1)
 - Estes países pertencem a qual macroregião?
 - Qual o ano de melhor espectativa de vida para o mundo (todos os países)
 - E qual o pior ano?
-- Países com maior GPD tem maior expectativa de vida?
+- Países com maior GPD tem maior expectativa de vida? Pq?
 - Existe alguma lei de pareto 80 / 20?
 
 
 5. Output
 
+
+6. Discoveries
+- USA, China and Germany have the biggest GDP
+- O Zimbabue tem o maior range na expectativade vida, porém muito abaixo dos demais países.
 
