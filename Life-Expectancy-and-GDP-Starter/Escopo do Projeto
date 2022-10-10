@@ -46,7 +46,9 @@ dtypes: float64(2), int64(1), object(1)
 
 4. Evaluation
 - Qual o GDP de cada país (média)
+Posso utilizar um loop aqui
 - Qual é a Life Expectancy de cada país (média)
+Posso utilizar outro loop aqui tbm
 - Estes países pertencem a qual macroregião?
 - Qual o ano de melhor espectativa de vida para o mundo (todos os países)
 - E qual o pior ano?
@@ -60,4 +62,5 @@ dtypes: float64(2), int64(1), object(1)
 6. Discoveries
 - USA, China and Germany have the biggest GDP
 - O Zimbabue tem o maior range na expectativade vida, porém muito abaixo dos demais países.
-
+- Existe um gap na Expectancy depois de 60 e alguma coisa e 70 e pequena coisa
+- 
