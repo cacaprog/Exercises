@@ -40,13 +40,12 @@ Prerequisites:
 dtypes: float64(2), int64(1), object(1)
 
 - renomear o nome de uma das colunas (Expectancy) - ok
-- o GDP está com número muito grande, vamos reduzí-lo - 
-- o ano está com casas decimais, talvez seja melhor arredondá-los?
-- tem uma série anual, na coluna Year, desde o ano 2000 para cada país (Country)
+- o GDP está com número muito grande, vamos reduzí-lo - ok
+- tem uma série anual, na coluna Year, desde o ano 2000 para cada país (Country) - ok
 
 4. Evaluation
 - Qual o GDP de cada país (média)
-Posso utilizar um loop aqui
+Posso utilizar um loop aqui 
 - Qual é a Life Expectancy de cada país (média)
 Posso utilizar outro loop aqui tbm
 - Estes países pertencem a qual macroregião?
