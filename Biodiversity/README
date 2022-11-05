@@ -1,0 +1,30 @@
+
+Este é um projeto para análise de dados.
+
+Perguntas a serem respondidas através dos dados:
+1. Qual o número total de seres em cada região? 5.824 em cada região
+2. Como é a distribuição por tipo / categoria em cada região?
+3. Quais espécies estão em extinção?
+4. Existe alguma relação entre o local e perigo de extinção?
+
+
+Dados
+Quais dados disponíveis para df_species?
+- category: categoria na qual os seres são classificados ['Mammal' 'Bird' 'Reptile' 'Amphibian' 'Fish' 'Vascular Plant'
+ 'Nonvascular Plant']
+- common_names: o nome mais comum para este ser , pode ter mais de um nome associado a ele
+- scientific_name: o nome científico para cada um deles
+- conservation_status: apenas 191 na contagem total. Os dados únicos são: [nan 'Species of Concern' 'Endangered' 'Threatened' 'In Recovery'] 
+
+Quais dados disponíveis para df_observation?
+- scientific_name: nome científico
+- park_name: local onde ele foi encontrado ['Great Smoky Mountains National Park' 'Yosemite National Park'
+ 'Bryce National Park' 'Yellowstone National Park']
+- observations: números (seriam o número de seres observados neste park_name?)
+
+Ambos possuem:
+- scientific_name
+
+O que precisa ser feito?
+- Qual o tipo de missing data existe na base de dados?
+- Ajustar esta base
