@@ -40,27 +40,19 @@ Fish
 
 Separar os animais dos demais reinos.
 Mostrar os dados agrupados por conservation_status
+Porém, existe muitos dados NaN para conservation_status. Excluí-los talvez não seja uma boa idéia por conta do volume.
+
 
 
 2. Are certain types of species more likely to be endangered?
+Mammals
+Bird
+
 
 
 3. Are the differences between species and their conservation status significant?
 
 
+
 4. Which species were spotted the most at each park?
 
-
-
-
-
-1. Qual o número total de seres em cada região? 5.824 em cada região
-
-
-2. Como é a distribuição por tipo / categoria em cada região?
-
-
-3. Quais espécies estão em extinção?
-
-
-4. Existe alguma relação entre o local e perigo de extinção?
