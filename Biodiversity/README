@@ -1,0 +1,59 @@
+
+Este é um projeto para análise de dados.
+
+Dados
+Quais dados disponíveis para df_species?
+- category: categoria na qual os seres são classificados ['Mammal' 'Bird' 'Reptile' 'Amphibian' 'Fish' 'Vascular Plant'
+ 'Nonvascular Plant']
+- common_names: o nome mais comum para este ser , pode ter mais de um nome associado a ele
+- scientific_name: o nome científico para cada um deles
+- conservation_status: apenas 191 na contagem total. Os dados únicos são: [nan 'Species of Concern' 'Endangered' 'Threatened' 'In Recovery'] 
+
+Quais dados disponíveis para df_observation?
+- scientific_name: nome científico
+- park_name: local onde ele foi encontrado ['Great Smoky Mountains National Park' 'Yosemite National Park'
+ 'Bryce National Park' 'Yellowstone National Park']
+- observations: números (seriam o número de seres observados neste park_name?)
+
+Ambos possuem:
+- scientific_name
+
+O que precisa ser feito?
+- Qual o tipo de missing data existe na base de dados?
+- Ajustar esta base
+
+Perguntas a serem respondidas através dos dados:
+1. Qual é a distribuição de conservation_status entre os animais?
+What is the distribution of conservation_status for animals?
+
+O reino Animália é o mais evoluído e se divide em dois grandes grupos: vertebrados e invertebrados. 
+Os animais são seres pluricelulares e eucariontes de alimentação heterotrófica, 
+respiração aeróbia, reprodução sexual e capacidade de deslocamento. 
+Este reino é um dos mais biodiversos e é composto pelos mamíferos, peixes, aves, répteis, 
+anfíbios, insetos, moluscos e anelídeos, entre outros.
+
+Mammal
+Bird
+Reptile
+Amphibian
+Fish
+
+Separar os animais dos demais reinos.
+Mostrar os dados agrupados por conservation_status
+Porém, existe muitos dados NaN para conservation_status. Excluí-los talvez não seja uma boa idéia por conta do volume.
+
+
+
+2. Are certain types of species more likely to be endangered?
+Mammals
+Bird
+Fish
+
+
+
+3. Are the differences between species and their conservation status significant?
+
+
+
+4. Which species were spotted the most at each park?
+
